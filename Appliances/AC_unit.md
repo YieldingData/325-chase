@@ -19,3 +19,6 @@ Model:PWFMDD200
   - (3) LG 32 Feet Wired Remote Control Extension Cable (PZCWRC1)
 
   - (3) LG Simple Remote Controller Wired (PREMTC00U)
+
+Refrigerant piping
+LDN187HV4
