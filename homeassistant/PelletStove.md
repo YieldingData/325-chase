@@ -1,4 +1,31 @@
-Input)` |
+# ESPHome Project Pinouts
+
+## ðŸ›  **Wemos D1 Mini Pin Assignments**
+
+### **ðŸ”´ RGB LED (Common Cathode)**
+| **LED Pin** | **ESP8266 GPIO** | **D1 Mini Pin** |
+|------------|----------------|----------------|
+| **Red (R)** | `GPIO14` | `D5` |
+| **Green (G)** | `GPIO12` | `D6` |
+| **Blue (B)** | `GPIO13` | `D7` |
+| **Ground (GND)** | `GND` | `GND` |
+
+---
+
+### **ðŸ”µ HC-SR04 Ultrasonic Sensor**
+| **HC-SR04 Pin** | **ESP8266 GPIO** | **D1 Mini Pin** |
+|---------------|----------------|----------------|
+| **VCC (5V)** | `VBUS` | `VBUS (5V from USB)` |
+| **Trig** | `GPIO4` | `D2` |
+| **Echo** | `GPIO5` | `D1` (âš ï¸ Use 1kÎ©/2kÎ© voltage divider) |
+| **GND** | `GND` | `GND` |
+
+---
+
+### **ðŸŸ¢ 10kÎ© Thermistor Temperature Sensor**
+| **Thermistor Pin** | **ESP8266 GPIO** | **D1 Mini Pin** |
+|------------------|----------------|----------------|
+| **One Side** | `A0` | `A0 (Analog Input)` |
 | **Other Side** | `3.3V` | `3.3V` |
 | **10kÎ© Resistor** | Between `A0` and `GND` | |
 
